@@ -15,8 +15,10 @@ We aim to visualize this custom object detection model and better understand how
 ### More About Yoda
 
 - Yoda takes 6 images of PDF as input : channel_page, channel_pagetext, channel_pagevector, channel_pageraster, channel_prevpage, channel_nextpage.
-- The padded inputs are fed into the 'loclization_model' which contains the convolutional and LSTM layers. 
- 
+- The padded inputs are fed into the 'localization_model' which contains the convolutional and LSTM layers. 
+ <p align="center">
+  <img src="images/1.png" title="hover text">
+</p>                
 
 <a name="install"></a>
 ### Installation
